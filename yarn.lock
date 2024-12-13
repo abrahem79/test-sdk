@@ -61,19 +61,6 @@
     axios "^1.3.5"
     js-base64 "^3.7.5"
 
-"@binance/w3w-core@1.1.8-alpha.0":
-  version "1.1.8-alpha.0"
-  resolved "https://registry.npmjs.org/@binance/w3w-core/-/w3w-core-1.1.8-alpha.0.tgz#422f06cfb988effbb1b67725dcebf3e1db93bc2d"
-  integrity sha512-fLTBqF4Yb7s4zFMhzHnmurQqszbiE9c8ZdmbELSkWgSwEHtEO7DAOAV61X9mCLLeCLpQkwz3sLULg/Agjr5iXA==
-  dependencies:
-    "@binance/w3w-qrcode-modal" "1.1.5"
-    "@binance/w3w-socket-transport" "1.1.4"
-    "@binance/w3w-types" "1.1.4"
-    "@binance/w3w-utils" "1.1.4"
-    "@ethersproject/abi" "^5.7.0"
-    axios "^1.3.5"
-    js-base64 "^3.7.5"
-
 "@binance/w3w-ethereum-provider@1.1.0", "@binance/w3w-ethereum-provider@^1.1.0":
   version "1.1.0"
   resolved "https://registry.npmjs.org/@binance/w3w-ethereum-provider/-/w3w-ethereum-provider-1.1.0.tgz"
@@ -93,18 +80,6 @@
   dependencies:
     "@binance/w3w-http-client" "1.1.4"
     "@binance/w3w-sign-client" "1.1.7"
-    "@binance/w3w-types" "1.1.4"
-    "@binance/w3w-utils" "1.1.4"
-    eip1193-provider "^1.0.1"
-    eventemitter3 "^5.0.0"
-
-"@binance/w3w-ethereum-provider@1.1.8-alpha.0":
-  version "1.1.8-alpha.0"
-  resolved "https://registry.npmjs.org/@binance/w3w-ethereum-provider/-/w3w-ethereum-provider-1.1.8-alpha.0.tgz#ee780544c2ae9ea234ef9284980a031db0e4f229"
-  integrity sha512-pmJWrv1npmqYYz1M3wtaXVY4rSJh2GYjNgRXoFb9SUJOklO8zHqKUjRoPWcHtWQTnEHmwzE4e/dIzE3tecRAjg==
-  dependencies:
-    "@binance/w3w-http-client" "1.1.4"
-    "@binance/w3w-sign-client" "1.1.8-alpha.0"
     "@binance/w3w-types" "1.1.4"
     "@binance/w3w-utils" "1.1.4"
     eip1193-provider "^1.0.1"
@@ -154,14 +129,14 @@
     react-dom "18.2.0"
     tailwindcss "^3.3.1"
 
-"@binance/w3w-rainbow-connector-v2@^1.0.1-alpha.0":
-  version "1.0.1-alpha.0"
-  resolved "https://registry.npmjs.org/@binance/w3w-rainbow-connector-v2/-/w3w-rainbow-connector-v2-1.0.1-alpha.0.tgz#3ba18f2ae04abd169f8b7af6956688fbb22f456c"
-  integrity sha512-51hV0VJwWIylgz0NHCnJ8o6Z4KmIt+R/Fw/Zc15Hi+Z/2A9eQW0JkBMQDUu4kLLIgrzDlXLbqDhMLW3QzoSstA==
+"@binance/w3w-rainbow-connector-v2@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/@binance/w3w-rainbow-connector-v2/-/w3w-rainbow-connector-v2-1.0.1.tgz#664d03f9b2e50483e5ca634ef50986ac85321664"
+  integrity sha512-vWEd4KH6QD5O457h/nVrkimsdLMTpbn1ysLkGc7HdYhUFVrNWoi7oRx7z8+08QP3O0SzLJnbepkLcx64dm/i3w==
   dependencies:
     "@binance/w3w-types" "1.1.4"
     "@binance/w3w-utils" "1.1.4"
-    "@binance/w3w-wagmi-connector-v2" "1.2.4-alpha.0"
+    "@binance/w3w-wagmi-connector-v2" "1.2.4"
 
 "@binance/w3w-sign-client@1.1.0":
   version "1.1.0"
@@ -178,15 +153,6 @@
   integrity sha512-KmuQCJ6g0L2LS0LEUQWbugqWiB6Nx+GMCEVuyRhl1AxzAiDybolpx8bIYAIinUeWoO2NcDJdzn971tX+QkhjoQ==
   dependencies:
     "@binance/w3w-core" "1.1.7"
-    "@binance/w3w-types" "1.1.4"
-    "@binance/w3w-utils" "1.1.4"
-
-"@binance/w3w-sign-client@1.1.8-alpha.0":
-  version "1.1.8-alpha.0"
-  resolved "https://registry.npmjs.org/@binance/w3w-sign-client/-/w3w-sign-client-1.1.8-alpha.0.tgz#33d363312b409e794060397be31d403c00ca81f0"
-  integrity sha512-p/p/aN6bwCko6X6SGvHGIEW/8ePx/2FWecnAwZaqWmglOdc3u632MWYgTj814Vn6tM36kntY5GoYbGVPMPtQ2w==
-  dependencies:
-    "@binance/w3w-core" "1.1.8-alpha.0"
     "@binance/w3w-types" "1.1.4"
     "@binance/w3w-utils" "1.1.4"
 
@@ -252,18 +218,10 @@
     hash.js "^1.1.7"
     js-base64 "^3.7.5"
 
-"@binance/w3w-wagmi-connector-v2@1.2.4-alpha.0":
-  version "1.2.4-alpha.0"
-  resolved "https://registry.npmjs.org/@binance/w3w-wagmi-connector-v2/-/w3w-wagmi-connector-v2-1.2.4-alpha.0.tgz#56fc0cf8036d9abe8bc7c75dcb89fa058d8f3b53"
-  integrity sha512-L/ivthYZeFjJ4DAYaKg3o5gDqRtmdiIptC4JgFfvVN6gpdEcAKM28ZJfpd6Gtax2Or+nrTw5eXdaxUUtp4cXtw==
-  dependencies:
-    "@binance/w3w-ethereum-provider" "1.1.8-alpha.0"
-    "@binance/w3w-utils" "1.1.4"
-
-"@binance/w3w-wagmi-connector-v2@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.npmjs.org/@binance/w3w-wagmi-connector-v2/-/w3w-wagmi-connector-v2-1.2.3.tgz"
-  integrity sha512-tprDHbHuOctnqfCJ3Fygzw+zdNhkCtxs8JJZ+Yhk50Mi2hytjydoL2G0674GE+6dCiDP5SveDtT6X99MRMtQqQ==
+"@binance/w3w-wagmi-connector-v2@1.2.4", "@binance/w3w-wagmi-connector-v2@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.npmjs.org/@binance/w3w-wagmi-connector-v2/-/w3w-wagmi-connector-v2-1.2.4.tgz#4f1e3bf5a0f344ec74bf293421c0e24072eb651d"
+  integrity sha512-RR5GC61Ftex+W7oE1POwoI9sibh4I/AhQa327EoujM2vsqof96WsBPovaNFrdLvFPYFDZKxjfIMLAE30o0gC8g==
   dependencies:
     "@binance/w3w-ethereum-provider" "1.1.7"
     "@binance/w3w-utils" "1.1.4"
